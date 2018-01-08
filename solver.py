@@ -37,5 +37,10 @@ nodes = [ExprTreeNode(num) for num in nums]
 
 solve(nodes)
 
+if len(solutions) == 0:
+    print ('No Solution!')
+else:
+    print ('Solutions:')
+
 for solution in solutions:
     print ('%s = %d' % (solution, 24))

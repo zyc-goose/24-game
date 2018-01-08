@@ -1,0 +1,28 @@
+* 24-Game Solver
+
+** Introduction
+
+The *24-Game* is a simple card game whose goal is to use the basic
+arithmetic operators('+', '-', '*', '/') on 4 random integers to get
+the final desired result - 24. For more information about the game,
+see https://en.wikipedia.org/wiki/24_Game .
+
+The solver.py searches for all possible expressions for a given set of
+4 integers, without producing duplicates like (3+5+7+9) and (9+7+5+3).
+Also, the final expression uses minimum number of parentheses, and is
+as concise as possible.
+
+** Sample
+
+#+BEGIN_SRC sh
+python solver.py
+Please insert 4 integers, each within [1,13], separated by space:
+3 5 7 9
+Solutions:
+3+5+7+9 = 24
+5*9-3*7 = 24
+9*(5-7/3) = 24
+(3+9)*(7-5) = 24
+
+#+END_SRC
+
