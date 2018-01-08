@@ -4,7 +4,7 @@
 
 The *24-Game* is a simple card game whose goal is to use the basic
 arithmetic operators('+', '-', '*', '/') on 4 random integers to get
-the final desired result - 24. For more information about the game,
+the final desired result 24. For more information about the game,
 see https://en.wikipedia.org/wiki/24_Game .
 
 The solver.py searches for all possible expressions for a given set of
